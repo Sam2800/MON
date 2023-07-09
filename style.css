@@ -1,0 +1,164 @@
+*{
+	margin: 16px;
+	padding: 0px;
+}
+
+body {
+  background-image: url(images/green.jpg);
+  backdrop-filter: blur(6px);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+div#container{
+	margin: auto;
+	width: 1380px;
+	height: 5350px;
+	background-color:;
+}
+
+div#rig1 {
+	float: left;
+	margin-top: 352px;
+	margin-bottom: 90px;
+	width: 640px;
+	height: 580px;
+	background-size: 85%;
+	animation: rig1 .6s infinite;
+	background-repeat: no-repeat;
+}
+
+@keyframes rig1{
+	0%, 25%{
+		background-image: url(images/cat1.png);
+	}
+	26%, 50%{
+		background-image: url(images/cat2.png);
+	}
+	51%, 75%{
+		background-image: url(images/cat3.png);
+	}
+	76%, 100%{
+		background-image: url(images/cat4.png);
+	}
+}
+
+
+div#rig2 {
+	float: right;
+	margin-top: 352px;
+	margin-right: -180px;
+	margin-bottom: 90px;
+	width: 640px;
+	height: 580px;
+	background-size: 50%;
+	animation: rig2 .5s infinite;
+	background-repeat: no-repeat;
+}
+
+@keyframes rig2 {
+	0%, 20% {
+		background-image: url(images/dog1.png);
+	}
+
+	21%, 50% {
+		background-image: url(images/dog2.png);
+	}
+
+	51%, 80% {
+		background-image: url(images/dog3.png);
+	}
+
+	81%, 100% {
+		background-image: url(images/dog4.png);
+	}
+}
+
+div#game1 {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background-color:#e8d8ff;
+	border-radius: 480px;
+}
+
+
+
+
+div#info1{
+	float: right;
+	width: 340px;
+	height: 330px;
+	background-color: ;
+}
+
+div#container2 {
+	float: left;
+	display: flex;
+	background-color: #cfb1ff;
+	margin-top: 0px;
+	margin-bottom: 90px;
+	border-radius: 96px;
+}
+
+div#Spawn1{
+	align-self: center;
+	margin: auto;
+}
+
+div#Transform1{
+	align-self: center;
+	margin: auto;
+}
+
+
+div#Trigger1{
+	align-self: center;
+	margin: auto;
+}
+
+div#game2 {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background-color: #b38bff;
+	border-radius: 480px;
+}
+
+
+
+div#info2{
+	float: right;
+	width: 340px;
+	height: 330px;
+	background-color: ;
+}
+
+div#container3 {
+	float: left;
+	display: flex;
+	margin-top: 0px;
+	background-color: #9265ff;
+	border-radius: 96px;
+}
+
+div#Lifes2{
+	align-self: center;
+	margin: auto;
+}
+
+div#SM2{
+	align-self: center;
+	margin: auto;
+}
+
+div#Target2{
+	align-self: center;
+	margin: auto;
+}
+
+
+
